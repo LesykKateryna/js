@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container" style="background-image: url(./img/1617527378_38-p-oboi-krasnie-rozi-40tttttttttttt.jpg);">
+        <header class="main-header"> 
+            <nav class="header-menu">
+                <div class="burger">
+                    <span></span>
+                </div>
+                
+                <ul class="menu-item">
+                    <div class="heder-img">
+                        <img src="./img/logo-main-page.png" alt="">
+                     </div> 
+                     <div class="menu ">
+                        <li class=" mainLi-flower tabs-nav__item is-active" data-tab-name="tab-1">Головна</li>
+                        <li class=" mainLi-text tabs-nav__item" data-tab-name="tab-2">Відгуки</li>
+                        <li class=" mainLi tabs-nav__item" data-tab-name="tab-3">Контакти</li>
+                        <li class=" open-form  mainLi" value="Вхід">Вхід</li>
+                    </div> 
+                </ul>
+            </nav>
+        </header>
+        <main class="main-main">
+
+            <div class="main-div2 tab is-active tab-1">
+                <div class="slide"style="background-image: url('./img/6d8cc682_5e5cfaec349ff.jpg');">
+                   <h3>Акція тижня</h3>
+                   <p>Знижка на троянди -10%</p>
+                </div>
+                <div class="slide"style="background-image: url('./img/9c7f47c5_61911b0078fd4.jpeg');">
+                    <h3>Відкриття нового магазину «Камелія» на Перемоги, 65А</h3>
+                    <p>В асортименті магазина представлені:
+                        троянди власного виробництва;
+                        імпортні зрізані квіти;</p>
+                </div>
+                <div class="slide"style="background-image: url('./img/a391a279_5a37e139f19a4.jpg');">
+                    <h3>Знижки до -30% на новорічний декор</h3>
+                    <p>З 23 грудня в магазинах "Камелія" стартують знижки на новорічний асортимент <br>
+
+                        Ялинкові іграшки, статуетки, подарунки, святкові декорації, різдвяні вінки - все для створення атмосфери головного зимового свята.</p>
+                </div>
+           </div>
+
+        <div class="chat-box tab tab-2">
+               <button id="chat-box__btn">Залишити відгук</button>
+               <div class="post-container">
+               </div>
+            <div class="divPost">
+                <textarea class="area-chat" id="chat-box__btn" name="post"  cols="80" rows="8" maxlength="200" ></textarea>
+                <button class="button-chat">Відправити</button>
+            </div>
+        </div>
+
+        <div class="contact-box tab tab-3">
+             <p>Lorem, ipsum dolor sit amet consectetur
+                  adipisicing elit. Hic numquam modi iure 
+                  enim libero nulla assumenda commodi a, 
+                  nihil error dolorem officia, quae molestiae 
+                  dicta eum! Voluptas dolore voluptatibus neque?</p>
+        </div>
+
+        <div class="main-Div ">
+            <div class="main-exit">
+                <i class="fas fa-times"></i>
+            </div>
+            <form action="#" class="main-form" method="post" >
+                <label for="textField">Логін:</label>
+                <input maxlength="25" name="login" id="textField" class="name-Input">
+                <label for="passField">Пароль:</label>
+                <input type="password" maxlength="25" name="password" id="passField" class="pass-Input">
+                <input type="submit" value="Вхід" class="main-Button">
+            </form> 
+        </div>
+           
+           
+           
+        </main>
+    </div>
+   <script src="main.js"></script> 
+</body>
+</html>
